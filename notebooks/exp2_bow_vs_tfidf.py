@@ -19,6 +19,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import scipy.sparse
+import nltk
+nltk.download('wordnet')
 
 import warnings
 warnings.simplefilter("ignore", UserWarning)
@@ -28,9 +30,9 @@ warnings.filterwarnings("ignore")
 CONFIG = {
     "data_path": "notebooks/data.csv",
     "test_size": 0.2,
-    "mlflow_tracking_uri": "https://dagshub.com/vikashdas770/YT-Capstone-Project.mlflow",
-    "dagshub_repo_owner": "vikashdas770",
-    "dagshub_repo_name": "YT-Capstone-Project",
+    "mlflow_tracking_uri": "https://dagshub.com/tgarg535/Movie-Review-Analysis.mlflow",
+    "dagshub_repo_owner": "tgarg535",
+    "dagshub_repo_name": "Movie-Review-Analysis",
     "experiment_name": "Bow vs TfIdf"
 }
 

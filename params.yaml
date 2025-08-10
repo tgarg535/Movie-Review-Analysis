@@ -1,0 +1,9 @@
+# params.yaml
+data_ingestion:
+  test_size: 0.21
+
+feature_engineering:
+  max_features: 55
+
+
+#dagshub token TEST: 8234ec7f960d7e1b9130275c48ae62667b410538
