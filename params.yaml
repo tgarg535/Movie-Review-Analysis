@@ -3,7 +3,7 @@ data_ingestion:
   test_size: 0.21
 
 feature_engineering:
-  max_features: 55
+  max_features: 52
 
-
+#$env:CAPSTONE_TEST = "your_actual_dagshub_token"
 #dagshub token TEST: 8234ec7f960d7e1b9130275c48ae62667b410538
