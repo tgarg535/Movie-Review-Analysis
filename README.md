@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 **Star this repository if you found it helpful!**
 
-**Built with ❤️ by [Your Name](https://github.com/yourusername)**
+**Built with ❤️ by [Tanush Garg](https://github.com/tgarg535)**
 
 *This industry-grade MLOps implementation serves as a comprehensive example of production machine learning operations, emphasizing infrastructure, automation, and operational excellence.*
 
